@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charaset='UTF-8' />
+    <title>canvasテスト</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <h1>Canvasの「ブレンドモード」と「toDataURL」を利用した画像の重なりを判定する処理</h1>
+    <canvas id="js-canvas01" width="200" height="300"></canvas>
+
+    <h2>パターン1: 重なりがない状態のアバター</h2>
+    <img src="./images/Qiita01.png"> + <img src="./images/Qiita02.png"> = 
+    <canvas id="js-canvas02" style="border:1px solid;" width="200" height="300"></canvas>
+
+    <h2>パターン1: 重なりがある状態のアバター</h2>
+    <img src="./images/Qiita02.png"> + <img src="./images/Qiita03.png"> = 
+    <canvas id="js-canvas03" style="border:1px solid;" width="200" height="300"></canvas>
+
+    <script src="./index.js"></script>
+  </body>
+</html>
+
