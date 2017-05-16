@@ -1,6 +1,6 @@
 # Canvasで画像の重なりを判定する
 
-![WebPushの受信](docs/images/実行イメージ.png)
+![実行イメージ](docs/images/execute.png)
 
 
 ## 動作環境
